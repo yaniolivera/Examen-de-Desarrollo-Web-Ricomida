@@ -1,0 +1,150 @@
+body {
+  font-family: Cabin;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.color-nav-foot {
+  background-color: #373a3c;
+}
+.logoricomida {
+  font-family: Lobster;
+  font-weight: 300;
+  font-size: 2.5rem;
+  color: #ffffff !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.altoImgPrincipal {
+  height: 24rem;
+}
+
+.hrClass {
+  border-top: 3px solid black;
+}
+
+/*receta-pizza */
+
+h3 {
+  text-decoration-line: underline;
+}
+.alignStartLine{
+    padding-inline-start: 10px;
+}
+
+
+/* Carrusel */
+
+.carousel-indicators {
+  top: 200px;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #373a3c;
+}
+
+/* cards comidas */
+h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+h4 {
+  font-weight: 700;
+}
+h5 {
+  font-size: 1.5rem;
+}
+
+/* footer */
+.nav-footer {
+  height: 30rem;
+}
+.subcription {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+.footersub {
+  font-weight: 700;
+  width: 100%;
+}
+.footer-info {
+  font-weight: 400;
+  font-size: 3, 33rem;
+  width: 100%;
+}
+
+.newlettersLogoRicomida {
+    font-family: Lobster;
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: #ffffff !important;
+  }
+.containerButtonFooter {
+  width: 100%;
+}
+
+.style-button {
+  color: #ffffff;
+  border-color: #ffffff;
+  margin-top: 3rem;
+  width: 11rem;
+}
+
+.centrado {
+  text-align: center;
+}
+
+.overElement {
+  cursor: pointer;
+}
+
+.mobileTextCenter {
+  text-align: left;
+}
+
+
+
+/* Small devices (landscape phones, 544px and up) */
+@media (max-width: 544px) {
+  h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+  }
+  h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  h3 {
+    text-decoration-line: underline;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  h5 {
+    font-size: 1.1rem;
+  }
+  .mobileTextCenter {
+    text-align: center;
+  }
+  .style-button {
+    color: #ffffff;
+    border-color: #ffffff;
+    margin-top: 3rem;
+    width: 100%;
+  }
+  
+}
